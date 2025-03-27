@@ -9,4 +9,3 @@ for num in array[:]:
         count += 1
 
 print(count)
-
