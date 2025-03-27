@@ -7,7 +7,7 @@ array = [10, 21, 14, 93, 23, 45, 67, 89, 12, 55]
 
 count = 0
 for num in array[:]:  
-    if 20 <= num <= 90:
+    if 20 <= num < 90:
         count += 1
 
 print(count)
